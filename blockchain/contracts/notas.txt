@@ -1,0 +1,6 @@
+video 7 48 min
+min 60
+dice como guardar una foto en ipfs, lo podemos hacer con infura o 
+nft-storage para subir cosas a ipfs
+termina en el min 110
+https://nft.storage/docs/quickstart/#create-an-account

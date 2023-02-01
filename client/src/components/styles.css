@@ -1,0 +1,8 @@
+.containerPokemons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
