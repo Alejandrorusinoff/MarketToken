@@ -1,14 +1,17 @@
 import React from 'react'
 import { Routes, Route, Redirect } from 'react-router-dom'
-import { HomeView } from '../views'
+import { HomeView, WelcomeView, QuestionView, CompletedQuestionsView } from '../views'
 
 const RoutesIndex = () => {
     return (
         <div>
             <Routes>
-                <Route index element={<HomeView/>}/>
-            {/* <Route path='/*' to='/'/> */}
-        </Routes>
+                {/* <Route index element={<HomeView/>}/> */}
+                <Route path="/completedQuestions" element={<CompletedQuestionsView/>}/> 
+                <Route path="/question" element={<QuestionView/>}/>
+                <Route path="/home" element={<WelcomeView/>}/>
+                <Route path="/" element={<HomeView/>} />
+            </Routes>
         </div>
     )
 }

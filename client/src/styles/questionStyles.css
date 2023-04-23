@@ -1,0 +1,178 @@
+@font-face {
+    font-family:Bloodthirsty;
+    /* src: url('../Dancing\ Minotaur.ttf') format('truetype'); */
+}
+
+:root {
+    --backgroundColor: white;
+    --fontColorQuestion: black;
+    --fontColorAnswers: black;
+}
+
+.welcomeContainer {
+    /* background-color: var(--backgroundColor); */
+    height: 100vh; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.questionContainer {
+    /* background-color: var(--backgroundColor);  */
+    /* height: 100%; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questionContainer1 {
+    /* width: 100%; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.questionContainer3 {
+    width: 99%;
+    align-items: center;
+}
+
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.clockContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.clockContainer div{
+    justify-content: center;
+    width: 160px;
+}
+
+
+.questionContainer2 {
+    flex: 1;
+    width: 100%;
+}
+  
+.question{
+    font-family: Bloodthirsty;
+    color: var(--fontColorQuestion);
+    font-size: 50px;
+    text-align: 'center';
+}
+
+.welcome { 
+    color: var(--fontColorQuestion);
+    font-size: 60;
+    padding: 20;
+}
+
+.rules  {
+    color: var(--fontColorQuestion)
+}
+
+.questionList { 
+    font-family: Bloodthirsty;
+    color: var(--fontColorQuestion);
+    font-size: 50px;
+    padding: 20px;
+    text-align: 'center';
+}
+
+.questionList1 { 
+    font-family: Bloodthirsty;
+    color: var(--fontColorQuestion);
+    font-size: 30px;
+    padding: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.questionList2 { 
+    font-family: Bloodthirsty;
+    color: var(--fontColorAnswers);
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.next {
+    background-color: var(--fontColorQuestion) !important;
+    min-width: 150px !important;
+    font-family: 'Bloodthirsty' !important;
+    font-size: 20 !important; 
+    margin: 20px !important; 
+}
+
+.ans {
+    margin: 0px 30px 0px 30px
+}
+
+::placeholder { color: white; }
+
+div.clock {
+    font-size: 10rem;
+    font-family: digital;
+}
+  
+div.clock div {
+    margin: 0;
+    text-align: center;
+    font-feature-settings: "tnum";
+}
+
+section.content {
+    padding: 15px;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerButton {
+    background-color: var(--backgroundColor); 
+    width: 100%;
+}
+  
+.containerCompletedQuestion {
+    /* background-color: var(--backgroundColor);  */
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column
+}
+
+.congratulation { 
+    color: var(--fontColorQuestion); 
+    font-size: 60px; 
+    padding: 20px
+}
+
+.notAuthorized {
+    color: var(--fontColorQuestion);
+    font-family: Bloodthirsty;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.clockStyle {
+    display: flex;
+    justify-content: center;
+}

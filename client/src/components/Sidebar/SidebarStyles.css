@@ -1,0 +1,49 @@
+.container {
+    display:flex;
+    align-items:center;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.iconCart {
+    font-size: 20px;
+}
+
+.pokemonWallet {
+    margin: 20px; 
+    border: 0px;
+    background-color: transparent;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containerSidebar {
+    background: url("../../assets/paisaje4.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:aliceblue;
+    filter: brightness(100%);
+}
+
+.withdraw {
+    border-radius: 5px; 
+    border: 0; 
+    margin: 20px 20px 0px 20px; 
+    cursor: pointer;
+    color: rgb(43, 43, 164);
+    font-size: 14px;
+    padding: 3px;
+    height: 80px !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.withdraw:hover {
+    background-color: rgb(64, 64, 235);
+    color: aliceblue;
+}
