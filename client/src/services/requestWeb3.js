@@ -84,7 +84,7 @@ export async function getAnswer(account) {
 export async function getPay(account, owner) {  
     let amount = await web3.utils.toHex(web3.utils.toWei("10")); //10 DEMO Token
     let data = await myContractPKMCoint.methods.transfer(account, amount).encodeABI()
-    const privateKey = '07d0f1da44a0fac10708ab804e60754fad697e68c029a51672a4d435c183f582'
+    const privateKey = ''
 
     let txObj = await {
         gas: web3.utils.toHex(100000),
